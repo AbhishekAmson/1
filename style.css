@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(207, 202, 202);
+    width:20vw;
+    height:100vh;
+}
+.sidebar nav{
+    padding:50px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    padding-bottom: 80px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: white;
+    width:80vw;
+}
+.container{
+    display: flex;
+}
+.info{
+    
+    width:45vw;
+    height: 30vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.info-1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+    
+}
+
+.info-2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color:rgb(160, 72, 69);
+
+}
+.info-3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.devpic img{
+    height: 30vw;
+    width: 300px;
+    
+}
+.devinfo{
+    font-size: 30px;
+    margin: auto;
+    margin-top: 90px;
+}
+.devinfo a{
+    text-decoration: none;
+    color:white;
+    background-color:rgb(52, 23, 240);
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: rgb(52, 23, 240);
+    margin: 0 3px;
+    color: white;
+    cursor: pointer;
+    
+} 
+.buttons button :hover{
+    color: rgb(52, 23, 240);
+    background-color: white;
+}
+.contact{
+    
+}
+.contact h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    padding-bottom: 20px;
+
+}
+.contname{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
+.contmail{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.about{
+    margin-left: 30px;
+}
+.aboutheading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding-bottom: 50px;
+    
+}
+.aboutme{
+    font-family: 'Instrument Serif', serif;
+    font-size: 25px;
+
+}
+.skillhead{
+    
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.skills{
+    /* display: flex; */
+}
+
+.skill-1{
+    width: 20vw;
+    
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(217, 124, 178);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.skill-2{
+    width: 20vw;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(217, 124, 178);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+.skill-3{
+    width: 20vw;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(217, 124, 178);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+.eduhead{
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    
+}
+.edu{
+    width: 20vw;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(217, 124, 178);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.edu h2{
+    
+    font-family: 'Instrument Serif', serif;
+    font-weight: lighter;
+}
+.mec{
+    margin-left: 20px;
+}
+
+.cmi{
+    width: 20vw;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(217, 124, 178);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.mec{
+    margin-left: 20px;
+}
+
+.svn{
+    width: 20vw;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(217, 124, 178);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
